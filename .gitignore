@@ -1,0 +1,39 @@
+# Node.js dependencies (if not top-level)
+**/node_modules
+
+# Rust artifacts
+/target
+
+# Compiled files
+/dist
+/build
+/pkg
+
+# Logs and databases
+/*.log
+*.sqlite
+
+# Environment variables
+.env*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (if you use VSCode or IntelliJ)
+.vscode/
+.idea/
+
+# Vue.js specific
+# If using Vue CLI, it generates a lot of configuration files and directories
+node_modules/
+/dist/
+/public/
+/.env
+npm-debug.log
+yarn-error.log
+.DS_Store
+
+# Rust specific
+# Cargo.lock file
+Cargo.lock
